@@ -16,4 +16,9 @@ class user
 		
 		$this->age = $age;
 	}
+	
+	protected function __set($name, $args)
+	{
+		
+	}
 }
