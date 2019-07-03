@@ -21,4 +21,9 @@ class user
 	{
 		
 	}
+	
+	protected function __get($name)
+	{
+	
+	}
 }
